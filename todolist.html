@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To-Do List</title>
+    <link rel="stylesheet" href="style.css"> <!-- Link to the external CSS file -->
+</head>
+<body class="todo-bg"> <!-- Different background for To-Do List page -->
+    <nav class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="signin.html">Sign In</a></li>
+            <li><a href="todolist.html">To-Do List</a></li>
+        </ul>
+    </nav>
+    <div class="todo-container">
+        <h2>To-Do List</h2>
+        <div class="task-entry">
+            <input type="text" id="task-input" placeholder="Enter a new task">
+            <button onclick="addTask()">Add Task</button>
+        </div>
+        <ul id="task-list"></ul>
+    </div>
+    <footer class="footer">
+        <ul>
+            <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.whatsapp.com" target="_blank">WhatsApp</a></li>
+        </ul>
+    </footer>
+    <script src="script.js"></script> <!--Link to the external JavaScript file -->
+</body>
+</html>
